@@ -1,4 +1,4 @@
-import beard from "@/assets/beard.jpg";
+import haircut from "@/assets/haircut.jpg";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center p-8">
                   <div className="w-auto h-auto mx-auto mb-6 rounded-full bg-primary/20 flex items-center justify-center">
-                    <img className="rounded-xl shadow-xl" src={beard} alt="hairstlye" />
+                    <img className="rounded-xl shadow-xl" src={haircut} alt="hairstlye" />
                   </div>
                   <p className="text-muted-foreground">Premium Grooming Experience</p>
                 </div>

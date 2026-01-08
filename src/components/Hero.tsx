@@ -1,4 +1,3 @@
-import haircut from "@/assets/haircut.jpg";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin } from "lucide-react";
 
@@ -14,7 +13,6 @@ const Hero = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       
       
-      <div><img src={haircut} alt="hairstyle" className="relative z-20 mx-auto pt-auto h-full rounded-full" /></div>
       <div className="relative z-10 container mx-auto px-6 text-center">
           
         <div className="mb-6">
